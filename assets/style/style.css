@@ -62,20 +62,8 @@ a:hover {
     padding: 50px 0 20px;
 }
 
-.top-cloud {
-    position: absolute;
-    left: 300px;
-    top: 40px;
-}
-
 .pro {
     text-decoration: underline;
-}
-
-.bottom-cloud {
-    position: absolute;
-    right: 250px;
-    bottom: 300px;
 }
 
 .intro {
@@ -83,14 +71,28 @@ a:hover {
     margin: auto;
 }
 
-.parent {
-    display: block;
-    grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: repeat(1, 1fr);
-    width: 50%;
-    margin: 100px auto 0 auto;
-    text-align: left;
-    row-gap: 2rem;
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.top-cloud {
+    position: absolute;
+    left: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    right: 250px;
+    bottom: 300px;
 }
 
 .books {
@@ -132,13 +134,12 @@ a:hover {
     text-decoration: none;
 }
 
-.contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
-}
-
-.copyright {
-    color: #eaf6f6;
-    font-size: 0.75rem;
-    padding: 20px 0;
+.parent {
+    display: block;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
 }
